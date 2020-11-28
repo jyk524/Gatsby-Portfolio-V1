@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import Globalstyle from "./globalStyle"
+import GlobalStyle from "./globalStyle"
 import Header from "./header"
 import Footer from "./footer"
 
@@ -19,6 +19,7 @@ const StyledLayout = styled.div`
     padding: 0 2.5rem;
   }
 `
+
 const Layout = ({ children }) => {
   return (
     <StyledLayout>
