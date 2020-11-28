@@ -19,15 +19,15 @@ const StyledLayout = styled.div`
     padding: 0 2.5rem;
   }
 `
-const Layout - ({ children }) => {
-    return (
-        <StyledLayout>
-            <GlobalStyle />
-            <Header />
-            <main id="main-content">{children}</main>
-            <Footer />
-        </StyledLayout>
-    )
+const Layout = ({ children }) => {
+  return (
+    <StyledLayout>
+      <GlobalStyle />
+      <Header />
+      <main id="main-content">{children}</main>
+      <Footer />
+    </StyledLayout>
+  )
 }
 
 export default Layout
