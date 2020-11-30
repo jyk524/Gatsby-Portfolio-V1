@@ -3,10 +3,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <Hero />
+      <Hero content={data.hero.edges[0].node} />
     </Layout>
   )
 }
@@ -30,3 +30,4 @@ export const pageQuery = graphql`
     }
   }
 `
+// With this GraphQL query in place, Gatsby, fortunately, does all the remaining work behind the scenes. At build time, it will run the query, retrieve the content, and passes it as props to our index.js component.
