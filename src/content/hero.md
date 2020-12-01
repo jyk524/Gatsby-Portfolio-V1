@@ -6,4 +6,4 @@ subtitlePrefix: "I build and design "
 subtitleHighlight: "things for the web."
 ---
 
-Full Stack Web Developer. Based in New York.
+Full Stack Web Developer. Based in New York City.
